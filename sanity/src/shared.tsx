@@ -126,7 +126,7 @@ export const news = (
 	{ siteLocale, inErasmus, onlyErasmus }: DeskStructureItemProps,
 ) =>
 	S.listItem()
-		.title(titles.NEWS)
+		.title(titles.NEWS + ' (Working)')
 		.child(
 			translatedChild2(S, {
 				title: titles.NEWS,
@@ -161,7 +161,7 @@ export const grants = (
 	{ siteLocale, inErasmus, onlyErasmus }: DeskStructureItemProps,
 ) =>
 	S.listItem()
-		.title('Tilskudd')
+		.title('Tilskudd (Cannot navigate between)')
 		.child(
 			translatedChild2(S, {
 				title: 'Tilskudd',
@@ -212,7 +212,7 @@ export const programs = (
 	{ siteLocale, onlyErasmus }: DeskStructureItemProps,
 ) =>
 	S.listItem()
-		.title('Programer')
+		.title('Programmer (Cannot navigate between)')
 		.child(
 			translatedChild2(S, {
 				title: 'Programmer',

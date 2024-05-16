@@ -198,11 +198,12 @@ export default (S: any) => {
 			S.list()
 				.title('Kunde')
 				.items([
-					/* 	news(S, { siteLocale: 'no', onlyErasmus: false }),
-					informationArticles(S, { siteLocale: 'no', onlyErasmus: false }), */
+					// informationArticles(S, { siteLocale: 'no', onlyErasmus: false }),
 					//	events(S, { siteLocale: 'no', onlyErasmus: false }),
 					grants(S, { siteLocale: 'no', onlyErasmus: false }),
 					programs(S, { siteLocale: 'no', onlyErasmus: false }),
+					S.divider(),
+					news(S, { siteLocale: 'no', onlyErasmus: false }),
 					// projects(S, { siteLocale: 'no', onlyErasmus: false }),
 					// Example of how to show documents missing siteLocale.
 					/* 		S.divider(),
